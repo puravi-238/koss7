@@ -1,0 +1,65 @@
+
+#btn
+{
+	padding:5px;
+	cursor:pointer;
+	border-radius:8px;
+	transition:250ms;
+	width:100px;
+	height:50px;
+	text-align:center;
+	margin-left:5%;
+	background:black;
+	color : white;
+	
+}
+
+#btn:hover
+{
+	transform:scale(1.1);
+	background:white;
+	color : black;
+}
+
+#images
+{
+	 display:flex;
+	 flex-wrap:wrap;
+	 height:100%;
+	 overflow:scroll;
+	 width:100%;
+	 padding:10px;
+	 margin-left:10px;
+}
+
+#images div
+{ 
+	 height:auto;
+	 width:250px;
+	 border-radius:8px;
+	 padding:5px;
+	 margin:10px;
+}
+
+img
+{
+	 height:250px;
+	 width:250px;
+	 border-radius:12px;
+	 transition:200ms;
+}
+
+img:hover
+{
+	 border-radius:2px;
+	 transform:scale(1.2);
+}
+
+footer
+{  
+    padding: 2px;
+    color: black;
+    font-size: 20px;
+    position : absolute;
+    bottom : 0px;
+}
